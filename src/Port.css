@@ -7,6 +7,7 @@
   text-align: center;
   font-family: "muscle";
   margin-bottom: 0;
+  font-weight: 400;
 }
 
 /* About me text styling - kept original */
@@ -19,6 +20,7 @@
 .navbar {
   position: fixed; /* Keeps navbar fixed at top */
   display: flex;
+  text-decoration: none;
   gap: 25px; /* Space between nav items */
   margin-left: 950px; /* Right-align navigation */
   margin-top: 20px;
@@ -62,7 +64,7 @@
 
 @font-face {
   font-family: "muscle";
-  src: url("./assets/fonts/MuscleCars.ttf") format("truetype");
+  src: url("./assets/fonts/GOOD PEOPLE.otf") format("opentype");
 }
 
 /* Section Styling */
