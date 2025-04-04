@@ -48,9 +48,9 @@ const Portfolio: React.FC = () => {
       <section id="about">
         <h2>About Me</h2>
         <p>
-          I am passionate about software development, web technologies, and AI.
-          With experience in full-stack development and machine learning, I aim
-          to build impactful solutions.
+        Hey there! I'm Deepak Madhu Kumar N, a Computer Science undergrad at K Ramakrishnan College of Technology and a tech-savvy enthusiast with a caffeine-fueled passion for building impactful digital solutions.
+I speak fluent Python, Java, and JavaScript, and I vibe well with tools like Django, Next.js, and Selenium. I’m also the go-to person for fixing bugs at 2 AM and making tech magic with nothing but an internet connection and VSCode.
+When I’m not coding, you’ll probably find me brainstorming startup ideas, leveling up my skills, or hyping up fellow devs in our campus tech community.
         </p>
       </section>
 

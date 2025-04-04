@@ -46,7 +46,7 @@
 }
 
 .btn-wit1 {
-  margin-left: 520px; /* Specific positioning */
+  margin-left: 500px; /* Specific positioning */
   margin-top: 10px;
 }
 
@@ -108,4 +108,11 @@ body {
   background-color: #000000; /* Dark background */
   margin: 0;
   padding: 0;
+}
+#about {
+    font-family: Courier;
+}
+#about p{
+    font-size: 25px;
+    text-align: center;
 }
