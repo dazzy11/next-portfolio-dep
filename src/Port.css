@@ -1,0 +1,111 @@
+/* Home Section Styles - Keep original styles as requested */
+
+/* Intro text styling - kept original */
+.intro {
+  color: rgb(255, 255, 255);
+  font-size: 6em;
+  text-align: center;
+  font-family: "muscle";
+  margin-bottom: 0;
+}
+
+/* About me text styling - kept original */
+.abtme {
+  font-family: Courier, monospace;
+  text-align: center;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  position: fixed; /* Keeps navbar fixed at top */
+  display: flex;
+  gap: 25px; /* Space between nav items */
+  margin-left: 950px; /* Right-align navigation */
+  margin-top: 20px;
+}
+
+.nav {
+  color: #fff;
+  font-family: courier, monospace;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Button Styles */
+.btn-wit1,
+.btn-wit2 {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50px; /* Rounded edges */
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.btn-wit1 {
+  margin-left: 520px; /* Specific positioning */
+  margin-top: 10px;
+}
+
+.btn-wit2 {
+  margin-left: 20px; /* Spacing between buttons */
+}
+
+/* Font Definitions */
+@font-face {
+  font-family: "bossbaby";
+  src: url("./assets/fonts/BossBaby.woff") format("woff");
+}
+
+@font-face {
+  font-family: "muscle";
+  src: url("./assets/fonts/MuscleCars.ttf") format("truetype");
+}
+
+/* Section Styling */
+section {
+  padding: 100px 20px; /* Add spacing around content */
+  min-height: 100vh; /* Make sections full viewport height */
+  color: white; /* Default text color */
+}
+
+h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Project List Styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+li {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+/* Link Styling */
+a {
+  color: #00ff9d; /* Bright color for visibility */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Background Styling - Add this if you want a background */
+body {
+  background-color: #000000; /* Dark background */
+  margin: 0;
+  padding: 0;
+}
