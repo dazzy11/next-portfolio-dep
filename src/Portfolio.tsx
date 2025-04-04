@@ -75,13 +75,29 @@ When I’m not coding, you’ll probably find me brainstorming startup ideas, le
       </section>
 
       {/* Contact Section - Contact information */}
-      <section id="contact">
-        <h2>Contact</h2>
-        {/* Various contact methods */}
-        <p>Email: <a href="mailto:deepakmadhukumar1124@gmail.com">deepakmadhukumar1124@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/deepak-madhu-kumar" target="_blank">LinkedIn Profile</a></p>
-        <p>GitHub: <a href="https://github.com/dazzy11" target="_blank">GitHub Profile</a></p>
-      </section>
+      {/* Contact Section */}
+<section id="contact">
+  <h2>Contact</h2>
+  <div className="contact-items">
+    {/* Email with icon */}
+    <div className="contact-item" onClick={() => window.location.href = "mailto:deepakmadhukumar1124@gmail.com"}>
+      <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" className="contact-icon" />
+      <span>deepakmadhukumar1124@gmail.com</span>
+    </div>
+
+    {/* LinkedIn with icon */}
+    <div className="contact-item" onClick={() => window.open("https://linkedin.com/in/deepak-madhu-kumar", "_blank")}>
+      <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" className="contact-icon" />
+      <span>LinkedIn Profile</span>
+    </div>
+
+    {/* GitHub with icon */}
+    <div className="contact-item" onClick={() => window.open("https://github.com/dazzy11", "_blank")}>
+      <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" className="contact-icon" />
+      <span>GitHub Profile</span>
+    </div>
+  </div>
+</section>
     </>
   );
 };
