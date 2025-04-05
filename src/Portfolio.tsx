@@ -32,6 +32,7 @@ const Portfolio: React.FC = () => {
           A Software Developer from Tamil Nadu, South India.
         </p>
         {/* Social media links as buttons */}
+        <div className='button-wrapper'>
         <a
           href="https://linkedin.com/in/deepak-madhu-kumar"
           target="_blank"
@@ -42,6 +43,7 @@ const Portfolio: React.FC = () => {
         <a href="https://github.com/dazzy11" target="_blank" rel="noopener noreferrer">
           <button className="btn-wit2">View Projects</button>
         </a>
+        </div>
       </section>
 
       {/* About Section - Personal information */}
@@ -49,8 +51,8 @@ const Portfolio: React.FC = () => {
         <h2>About Me</h2>
         <p>
         Hey there! I'm Deepak Madhu Kumar N, a Computer Science undergrad at K Ramakrishnan College of Technology and a tech-savvy enthusiast with a caffeine-fueled passion for building impactful digital solutions.
-I speak fluent Python, Java, and JavaScript, and I vibe well with tools like Django, Next.js, and Selenium. I’m also the go-to person for fixing bugs at 2 AM and making tech magic with nothing but an internet connection and VSCode.
-When I’m not coding, you’ll probably find me brainstorming startup ideas, leveling up my skills, or hyping up fellow devs in our campus tech community.
+I speak fluent Java, and JavaScript, and I vibe well with tools like Next.js, Django, and Selenium. I’m also the go-to person for fixing bugs at 2 AM and making tech magic with nothing but an internet connection and VSCode.
+When I’m not coding, you’ll probably find me brainstorming ideas, leveling up my skills, or hyping up fellow devs in our campus tech community.
         </p>
       </section>
 

@@ -34,26 +34,38 @@
 }
 
 /* Button Styles */
+/* Button Styles */
 .btn-wit1,
 .btn-wit2 {
   background-color: #fff;
   color: #000;
   border: none;
-  padding: 10px 15px;
+  padding: 12px 25px; /* Slightly larger padding */
   font-size: 16px;
   cursor: pointer;
-  border-radius: 50px; /* Rounded edges */
+  border-radius: 50px;
   font-weight: bold;
   font-family: monospace;
+  transition: all 0.3s ease;
+  margin: 0 15px; /* Space between buttons */
 }
 
-.btn-wit1 {
-  margin-left: 500px; /* Specific positioning */
-  margin-top: 10px;
+/* Main container that centers everything */
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 20vh; /* Centers vertically in viewport */
 }
 
-.btn-wit2 {
-  margin-left: 20px; /* Spacing between buttons */
+/* Hover effects */
+.btn-wit1:hover,
+.btn-wit2:hover {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #fff;
+  transform: scale(1.05); /* Slight grow effect on hover */
 }
 
 /* Font Definitions */
@@ -64,7 +76,7 @@
 
 @font-face {
   font-family: "muscle";
-  src: url("./assets/fonts/GOOD PEOPLE.otf") format("opentype");
+  src: url("./assets/fonts/new/QuickTown.ttf") format("truetype");
 }
 
 /* Section Styling */
