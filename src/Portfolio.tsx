@@ -1,7 +1,7 @@
 // Import React library and CSS styles
 import React from "react";
 import "./Port.css";
-
+import Cube from "./cube";
 // Define Portfolio component as a Functional Component
 const Portfolio: React.FC = () => {
   return (
@@ -24,13 +24,13 @@ const Portfolio: React.FC = () => {
       </div>
 
       {/* Home Section - First visible section */}
-      <section id="home">
-        {/* Main heading with intro text */}
-        <h1 className="intro">Hey, Hi! I'm Deepak</h1>
-        {/* Subheading with brief description */}
-        <p className="abtme">
-          A Software Developer from Tamil Nadu, South India.
-        </p>
+      <section id="home" className="home-container">
+        {/* Left side: intro text */}
+        <div className="home-text">
+          <h1 className="intro">Hi! I'm Deepak</h1>
+          <p className="abtme">
+            A Software Developer from Tamil Nadu, India.
+          </p>
         {/* Social media links as buttons */}
         <div className='button-wrapper'>
         <a
@@ -43,6 +43,11 @@ const Portfolio: React.FC = () => {
         <a href="https://github.com/dazzy11" target="_blank" rel="noopener noreferrer">
           <button className="btn-wit2">View Projects</button>
         </a>
+        </div>
+        </div>
+        {/* Right side: 3D cube animation */}
+        <div className="home-cube">
+          <Cube />
         </div>
       </section>
 
