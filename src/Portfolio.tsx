@@ -45,10 +45,6 @@ const Portfolio: React.FC = () => {
         </a>
         </div>
         </div>
-        {/* Right side: 3D cube animation */}
-        <div className="home-cube">
-          <Cube />
-        </div>
       </section>
 
       {/* About Section - Personal information */}
