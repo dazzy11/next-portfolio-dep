@@ -1,7 +1,6 @@
 // Import React library and CSS styles
 import React from "react";
 import "./Port.css";
-import Cube from "./cube";
 // Define Portfolio component as a Functional Component
 const Portfolio: React.FC = () => {
   return (
