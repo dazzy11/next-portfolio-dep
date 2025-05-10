@@ -177,14 +177,3 @@ body {
   font-family: "Courier New", monospace;
   font-size: 1.1rem;
 }
-/* Home section: split into two flex items */
-.home-container {
-  display: flex;                                 /* makes a flex container :contentReference[oaicite:0]{index=0} */
-  align-items: center;                           /* vertical centering :contentReference[oaicite:1]{index=1} */
-  justify-content: space-between;                /* space between text & cube :contentReference[oaicite:2]{index=2} */
-  gap: 4rem;                                     /* breathing room */
-  padding: 10px 140px;                           /* maintain your section spacing */
-}
-
-
-
