@@ -26,7 +26,7 @@ const Portfolio: React.FC = () => {
       {/* Home Section - First visible section */}
       <section id="home">
         {/* Main heading with intro text */}
-        <h1 className="intro">Hey, Hi! I'm Deepak</h1>
+        <h1 className="intro">Hey, I'm Deepak</h1>
         {/* Subheading with brief description */}
         <p className="abtme">
           A Software Developer from Tamil Nadu, South India.

@@ -1,9 +1,0 @@
-.hi{
-    color: red;
-    font-family: "muscle";
-    font-size: 6em;
-}
-@font-face {
-    font-family: "muscle";
-    src: url("./assets/fonts/Doctor Glitch.otf") format("opentype");
-  }
