@@ -2,6 +2,9 @@ import { useEffect, useState } from 'react';
 import Lenis from '@studio-freight/lenis';
 import { Github, Linkedin, Mail, FileDown, Menu, X, ExternalLink } from 'lucide-react';
 import './Dc.css';
+import nextStepImage from './assets/nextstep.png';
+import heliosImage from './assets/helios.png';
+import mockImage from './assets/mockmate.png';
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -96,7 +99,7 @@ export default function App() {
   </p>
   <button 
     className="resume-download"
-    onClick={() => window.open("https://drive.google.com/your-resume-link", "_blank")}
+    onClick={() => window.open("https://drive.google.com/file/d/1XF0Pks5iQ6FRtBfRGSymQxO7C7ASlXRd/view?usp=drive_link", "_blank")}
   >
     <FileDown size={18} />
     Download Resume
@@ -109,48 +112,108 @@ export default function App() {
   <div className="projects-grid">
     {/* Project Card 1 */}
     <div className="project-card">
-      <div className="project-image placeholder-image-1"></div>
-      <h3>NextStep AI Career Navigator</h3>
-      <div className="tech-stack">
-        <span>React</span>
-        <span>Next.js</span>
-        <span>TypeScript</span>
-        <span>PostgreSQL</span>
-      </div>
-      <p>AI-driven career guidance platform</p>
-      <div className="project-links">
-        <a href="https://nextstep-ai.com" target="_blank" rel="noopener noreferrer">
-          <button className="project-btn">
-            <ExternalLink size={16} />
-            Website
-          </button>
-        </a>
-        <a href="https://github.com/dazzy11/NextStep-AI-Career-Navigator" target="_blank" rel="noopener noreferrer">
-          <button className="project-btn">
-            <Github size={16} />
-            GitHub
-          </button>
-        </a>
-      </div>
-    </div>
+  <img 
+    src={nextStepImage} 
+    alt="NextStep AI Career Navigator Project Preview" 
+    className="project-image"
+  />
+  <h3>NextStep</h3>
+  <div className="tech-stack">
+    <span>React</span>
+    <span>Next.js</span>
+    <span>TypeScript</span>
+    <span>PostgreSQL</span>
+  </div>
+  <p>NextStep is a career-driven navigator platform built. The platform offers features like AI-powered resume analysis and a virtual career assistant to guide users through their journey to success.</p>
+  <div className="project-links">
+    <a href="https://github.com/dazzy11/NextStep-AI-Career-Navigator" target="_blank" rel="noopener noreferrer">
+      <button className="project-btn">
+        <ExternalLink size={16} />
+        Website
+      </button>
+    </a>
+    <a href="https://github.com/dazzy11/NextStep-AI-Career-Navigator" target="_blank" rel="noopener noreferrer">
+      <button className="project-btn">
+        <Github size={16} />
+        GitHub
+      </button>
+    </a>
+  </div>
+</div>
 
     {/* Add 3 more similar project cards with different placeholder images */}
     {/* Project Card 2 */}
     <div className="project-card">
-      <div className="project-image placeholder-image-2"></div>
-      {/* ... similar structure ... */}
-    </div>
+  <img 
+    src={heliosImage} 
+    alt="helios Project Preview" 
+    className="project-image"
+  />
+  <h3>Helios</h3>
+  <div className="tech-stack">
+    <span>React</span>
+    <span>Next.js</span>
+    <span>TypeScript</span>
+    <span>PostgreSQL</span>
+  </div>
+  <p>Helios is an all-in-one solar platform designed to optimize your solar investment experience. It provides comprehensive data, interactive maps, the latest news, savings calculations.</p>
+  <div className="project-links">
+    <a href="https://github.com/dazzy11/HelioROI" target="_blank" rel="noopener noreferrer">
+      <button className="project-btn">
+        <ExternalLink size={16} />
+        Website
+      </button>
+    </a>
+    <a href="https://github.com/dazzy11/HelioROI" target="_blank" rel="noopener noreferrer">
+      <button className="project-btn">
+        <Github size={16} />
+        GitHub
+      </button>
+    </a>
+  </div>
+</div>
 
     {/* Project Card 3 */}
     <div className="project-card">
-      <div className="project-image placeholder-image-3"></div>
-      {/* ... similar structure ... */}
-    </div>
+  <img 
+    src={mockImage} 
+    alt="MockMate Project Preview" 
+    className="project-image"
+  />
+  <h3>MockMate</h3>
+  <div className="tech-stack">
+    <span>React</span>
+    <span>Next.js</span>
+    <span>TypeScript</span>
+  </div>
+  <p>MockMate is an AI-powered interview preparation platform.It helps users master technical interviews through resume analysis, coding challenges, and mock interviews.</p>
+  <div className="project-links">
+    <a href="https://mock-mate-ai-interview-simulator.vercel.app/" target="_blank" rel="noopener noreferrer">
+      <button className="project-btn">
+        <ExternalLink size={16} />
+        Website
+      </button>
+    </a>
+    <a href="https://github.com/dazzy11/mockmate1" target="_blank" rel="noopener noreferrer">
+      <button className="project-btn">
+        <Github size={16} />
+        GitHub
+      </button>
+    </a>
+  </div>
+</div>
 
     {/* Project Card 4 */}
     <div className="project-card">
-      <div className="project-image placeholder-image-4"></div>
-      {/* ... similar structure ... */}
+      <div className="project-image placeholder-image-1"></div>
+      <h3>Coming Soon</h3>
+      <div className="tech-stack">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <p></p>
     </div>
   </div>
 </section>
