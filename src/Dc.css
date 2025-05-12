@@ -313,13 +313,19 @@ a:focus {
   background: var(--secondary);
   color: var(--bg);
   border: none;
+  max-width: 100%;
+  width: fit-content;
   border-radius: 25px;
   cursor: pointer;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
   transition: all 0.3s ease;
+  font-size: 1rem;
+  flex-wrap: wrap;
 }
+
 
 .resume-download:hover {
   transform: translateY(-2px);

@@ -48,7 +48,7 @@ export default function App() {
           <button onClick={() => scrollToSection('projects')}>Projects</button>
           <button onClick={() => scrollToSection('contact')}>Contact</button>
           <a
-            href="https://drive.google.com/your-resume-link"
+            href="https://drive.google.com/file/d/1XF0Pks5iQ6FRtBfRGSymQxO7C7ASlXRd/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="resume-btn"
