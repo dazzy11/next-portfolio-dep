@@ -5,6 +5,10 @@
   --bg: #000000;
   --card-bg: #111111;
 }
+::selection {
+  /*background-color: #000000;  Green background */
+  color: #9790e6; /* White text */
+}
 
 * {
   margin: 0;

@@ -70,7 +70,7 @@ export default function App() {
       <section id="home">
         <h1 className="intro">Hey, I'm Deepak</h1>
         <p className="abtme">
-          A Software Developer from Tamil Nadu, South India.
+          A Software Developer turning ideas into elegant code and seamless user experiences.
         </p>
         <div className='button-wrapper'>
           <a href="https://linkedin.com/in/deepak-madhu-kumar" target="_blank" rel="noopener noreferrer">
@@ -186,7 +186,7 @@ export default function App() {
     <span>Next.js</span>
     <span>TypeScript</span>
   </div>
-  <p>MockMate is an AI-powered interview preparation platform.It helps users master technical interviews through resume analysis, coding challenges, and mock interviews.</p>
+  <p>MockMate is an AI-powered interview preparation platform. It offers personalized feedback and real-time performance insights, empowering users to confidently tackle any technical interview with ease.</p>
   <div className="project-links">
     <a href="https://mock-mate-ai-interview-simulator.vercel.app/" target="_blank" rel="noopener noreferrer">
       <button className="project-btn">
