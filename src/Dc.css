@@ -311,11 +311,13 @@ a:focus {
   margin: 0 auto;
 }
 
+
+
 .resume-download {
   margin-top: 2rem;
   padding: 1rem 2rem;
-  background: var(--secondary);
-  color: var(--bg);
+  background: transparent; /* Changed for hover animation visibility */
+  color: #e0e0e0; /* Adjust this as needed */
   border: none;
   max-width: 100%;
   width: fit-content;
@@ -328,13 +330,31 @@ a:focus {
   transition: all 0.3s ease;
   font-size: 1rem;
   flex-wrap: wrap;
+
+  /* Inherited from .btn-wit1 */
+  position: relative;
+  overflow: hidden;
+  text-decoration: none !important;
+  box-shadow: none !important;
+  outline: none !important;
 }
 
-
-.resume-download:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(0, 255, 157, 0.3);
+/* Hover underline animation */
+.resume-download::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #efefef;
+  transition: width 0.3s ease-out;
 }
+
+.resume-download:hover::after {
+  width: 100%;
+}
+
 
 /* Project Cards */
 .project-image {
